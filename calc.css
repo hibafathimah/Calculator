@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.maincontainer{
+    height: 560px;
+    margin: auto;
+    margin-top: 40px;
+    width: 400px;
+    background-color: black;
+    box-shadow: 1px 1px 23px 1px rgba(0,0,0,0.18);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.display{
+    height: 115px;
+    width: 370px;
+    box-shadow: 1px 1px 23px 1px rgba(0,0,0,0.18);
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.contentcontainer{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 23px 1px rgba(0,0,0,0.18);
+    width: 380px;
+    border-radius: 12px;
+    margin: auto;
+    height: 430px;
+}
+.calc-one{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 380px;
+    height: 50px;
+    border-radius: 12px;
+    justify-content: space-around;
+}
+.samebtn{
+    width: 70px;
+    height: 50px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 23px 1px rgba(43, 43, 43, 0.774);
+    font-weight: 700;
+}
+.diffbtn{
+    width: 160px;
+    height: 50px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 23px 1px rgba(0,0,0,0.18);
+    font-weight: 700;
+}
+form.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.dis{
+    background-color: black;
+    width: 370px;
+    height: 100px;
+    border: none;
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    color: white;
+}
